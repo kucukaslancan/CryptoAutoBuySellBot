@@ -9,8 +9,8 @@ include('system/Crypto.php');
 if(@$_GET['securityKey'] == '2c61ebff5a7f675451467527df66788d'){
 
     function sendMessage( $messaggio) {
-        $token = "1640028307:AAGhPRxAVACbsLnh2Za8J7-FO-vgB4eNj3A";
-        $chatID = "-1001470193253";
+        $token = "";
+        $chatID = "";
          
     
         $url = "https://api.telegram.org/bot" . $token . "/sendMessage?chat_id=" . $chatID;
@@ -32,7 +32,7 @@ if(@$_GET['securityKey'] == '2c61ebff5a7f675451467527df66788d'){
     // TRADINGVIEW'dan gelen bilgiler
 
 
-    $api = new Crypto("CGNDxFQwBw1VgSgNkwUD28tEziSvr2WtuN50HV1067Y27OLO2SxNwUwVkn0a1GlO","yn2E0MqDWGQbE7KSzStNxf758gSjlnRvEH03dxtXXmC4XpnSM29CFHuH5KBcHNrW");
+    $api = new Crypto("CGN067Y27OLO2SxNwUwVkn0a1GlO","yn2E0MqDWGQbE7KSzCFHuH5KBcHNrW");
     $buy = json_decode($api->buyMarket(11,'DOGEUSDT'));
     
    if($buy->status){ 
