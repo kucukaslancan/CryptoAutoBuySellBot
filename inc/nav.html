@@ -1,0 +1,62 @@
+<nav class="sidebar">
+    <ul class="nav">
+       <li>
+          <div data-toggle="collapse-next" class="item user-block has-submenu">
+             <div class="user-block-picture">
+                <img src="app/img/user/05.jpg" alt="Avatar" width="60" height="60" class="img-thumbnail img-circle account-img-mb">
+             </div>
+             <div class="user-block-info">
+                <span class="user-block-name item-text"><?=strtoupper($_SESSION['username']);?></span>
+                <span class="user-block-role"><i class="fa fa-check text-green"></i> Onaylı Hesap</span>
+                
+             </div>
+          </div>
+        
+       </li>
+   
+         <li>
+            <a href="index.php" title="Dashboard" class="">
+               <em class="fa fa-home"></em>
+               <span class="item-text">Ana Sayfa</span>
+            </a>
+         </li>
+<li>
+          <a href="" title="Markets" data-toggle="collapse-next" class="has-submenu">
+             <em class="fa fa-gear"></em>
+             <div class="label pull-right"><i class="fa fa-line-chart"></i></div>
+             <span class="item-text">Bot İşlemleri</span>
+          </a>
+          <ul class="nav collapse ">
+             <li >
+                <a href="botlarim.php" title="Botlarım" data-toggle="" class="no-submenu">
+                <span class="item-text">Botlarım</span>
+                </a>
+             </li>
+             <li>
+                <a href="createBot.php" title="Bot Oluştur" data-toggle="" class="no-submenu">
+                <span class="item-text">Bot Oluştur</span>
+                </a>
+             </li>
+             
+          </ul>
+       </li>
+    
+       
+       
+       <li>
+          <a href="borsaAyarlari.php" title="Dashboard" class="">
+             <em class="fa fa-btc"></em>
+             <span class="item-text">Borsa Ayarları</span>
+          </a>
+       </li>
+
+        
+      <li>
+         <a href="index.php" title="Dashboard" class="">
+            <em class="fa fa-line-chart"></em>
+            <span class="item-text">Raporlar</span>
+         </a>
+      </li>
+
+    </ul>
+ </nav>
