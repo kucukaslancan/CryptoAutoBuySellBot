@@ -5,6 +5,22 @@
 
 <p align="left"><h3 align="center">Ekran Görüntüleri</h3> </p>
 
+<h2>Ana Ekran </h2>
+
+![Ana Ekran](images/logos/1.jpg?raw=true "Ana Ekran")
+
+<h2>Mevcut Botlarım </h2>
+
+![Ana Ekran](images/logos/2.jpg?raw=true "Mevcut Botlarım")
+ 
+ <h2>Bot Oluştur </h2>
+
+![Ana Ekran](images/logos/3.jpg?raw=true "Bot Oluştur")
+
+<h2>Borsa Ayarları </h2>
+
+![Ana Ekran](images/logos/4.jpg?raw=true "Borsa Ayarları")
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/cankucukaslan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="cankucukaslan" height="30" width="40" /></a>
