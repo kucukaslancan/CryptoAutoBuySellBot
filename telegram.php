@@ -1,7 +1,7 @@
 <?php
 function sendMessage( $messaggio) {
-    $token = "1640028307:AAGhPRxAVACbsLnh2Za8J7-FO-vgB4eNj3A";
-    $chatID = "-1001470193253";
+    $token = "";
+    $chatID = "";
      
 
     $url = "https://api.telegram.org/bot" . $token . "/sendMessage?chat_id=" . $chatID;
@@ -23,7 +23,7 @@ function sendMessage( $messaggio) {
 //$msg= "\xF0\x9F\x9A\xA8 ALIŞ SİNYALİ  \xF0\x9F\x9A\xA8 \n\n\n \xE2\xAC\x86 #DOGEUSDT Paritesinde 0,0056845 Fiyatından 10,55458$ Alım Yapıldı!";
 
 // SATIM ESAJI
-$msg= "\xF0\x9F\x9A\xA8 SATIŞ SİNYALİ  \xF0\x9F\x9A\xA8 \n\n\n \xE2\xAC\x87 #DOGEUSDT Paritesinde 0,0056845 Fiyatından 10,55458$ Satış Yapıldı!";
+$msg= "\xF0\x9F\x9A\xA8 SATIŞ SİNYALİ  \xF0\x9F\x9A\xA8 \n\n\n \xE2\xAC\x87 #DOGEUSDT Paritesinde 0,## Fiyatından ##$ Satış Yapıldı!";
 
 
- sendMessage("\xF0\x9F\x9A\xA8 ALIŞ SİNYALİ  \xF0\x9F\x9A\xA8 \n\n\n \xE2\xAC\x86 #DOGEUSDT Paritesinde 0,0056845 Fiyatından 10,55458$ Alım Yapıldı!");
+ sendMessage("\xF0\x9F\x9A\xA8 ALIŞ SİNYALİ  \xF0\x9F\x9A\xA8 \n\n\n \xE2\xAC\x86 #DOGEUSDT Paritesinde 0,## Fiyatından ##$ Alım Yapıldı!");
